@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/656e12d430.js" crossorigin="anonymous"></script>
+  <title>Portfolio | Jake Register</title>
+</head>
+
+<body>
+  <!--Header Content-->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <img class="logo-img" src="img/portfolio-logo.png" alt="JR logo" width="75" height="75">
+      </div>
+
+      <div>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="index.html">HOME</a></li>
+          <li class="nav-list-item"><a href="#about">ABOUT</a></li>
+          <li class="nav-list-item"><a href="#projects">PROJECTS</a></li>
+          <li class="nav-list-item"><a href="https://jakeregister.com/blog/" target="_blank">BLOG</a></li>
+          <li class="nav-list-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="burger-nav">
+      <div class="header-position">
+        <a href="index.html" class="logo">
+          <img class="logo-img" src="img/portfolio-logo.png" alt="JR logo">
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i id="icons" class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+      <div id="burgerLinks">
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="https://jakeregister.com/blog/" target="_blank">BLOG</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </div>
+  </header>
+  <!--Body Content-->
+  <main>
+    <!--Home/Landing Page Style Section-->
+    <section class="heading">
+      <div class="heading-info">
+        <div>
+          <h2>Hi, I'm Jake!</h2>
+          <h3>I'm passionate about technology and building a more accessible internet.</h3>
+          <div class="cta-btns">
+            <div class="cta-btn solid-btn">
+              <a class="cta-link" href="#contact">Let's chat!</a>
+            </div>
+            <div class="cta-btn outline-btn">
+              <a class="cta-link-outline" href="https://jakeregister.com/blog/" target="_blank">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="heading-graphic">
+        <img class="heading-image" src="img/web-developer.jpg" alt="animated web devoloper programming" width="500"
+          height="500" />
+      </div>
+    </section>
+    <!--About Page Style Section-->
+    <section class="about">
+      <h2 id="about">About</h2>
+      <div class="about-content">
+        <div class="img-container"><img class="profile-image" src="img/profile-picture.jpg"
+            alt="Profile picture of Jake Register" width="600" height="800" /></div>
+        <div class="about-text">
+          <p>
+            Hi, I'm Jake and I'm a web developer. I live in Durham, NC with my wife and two dogs. In my free time, I
+            love to learn new things, try new foods, and travel. My favorite country to travel to is Colombia and I look
+            forward to going again soon!
+
+          </p>
+          <br>
+          <p>
+            I'm in the process of finishing up a Web Development degree and am currently employed in the application
+            performance
+            monitoring
+            space. My favorite technologies are Svelte, React, and ChakraUI, but I also love to build websites
+            in HTML, CSS, and vanilla JavaScript.
+          </p>
+          <br>
+          <p>
+            I formerly worked as an account executive in the construction industry and have great communication skills.
+            Additionally, my nearly 10 years of sales experience has strengthed my ability to understand client needs
+            and develop business relationships.
+          </p>
+          <div class="resume">
+
+            <div class="about-btn solid-btn">
+              <a class="about-link" href="resources/resume-2022.pdf" target="_blank">
+                <span>Download Resume</span>
+                <i class="fa-solid fa-download hide-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-skills">
+          <h3>Skills</h3>
+          <div class="skills-wrapper">
+            <div class="skills">
+              <div class="details">
+                <span>Communication</span>
+                <span>100%</span>
+              </div>
+              <div class="bar">
+                <div class="hundred-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>Teamwork</span>
+                <span>100%</span>
+              </div>
+              <div class="bar">
+                <div class="hundred-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>Fast Learner</span>
+                <span>100%</span>
+              </div>
+              <div class="bar">
+                <div class="hundred-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-technologies">
+          <h3>Technology</h3>
+          <div class="tech-wrapper">
+            <div class="tech">
+              <div class="details">
+                <span>HTML/CSS</span>
+                <span>95%</span>
+              </div>
+              <div class="bar">
+                <div class="html-bar"></div>
+              </div>
+            </div>
+            <div class="tech">
+              <div class="details">
+                <span>JavaScript</span>
+                <span>75%</span>
+              </div>
+              <div class="bar">
+                <div class="js-bar"></div>
+              </div>
+            </div>
+            <div class="tech">
+              <div class="details">
+                <span>SQL</span>
+                <span>75%</span>
+              </div>
+              <div class="bar">
+                <div class="sql-bar"></div>
+              </div>
+            </div>
+            <div class="tech">
+              <div class="details">
+                <span>PHP/C#</span>
+                <span>55%</span>
+              </div>
+              <div class="bar">
+                <div class="php-bar"></div>
+              </div>
+            </div>
+            <div class="tech">
+              <div class="details">
+                <span>React</span>
+                <span>50%</span>
+              </div>
+              <div class="bar">
+                <div class="react-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Project Page Style Section-->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="column">
+          <img src="img/toro-taco.jpg" alt="Toro Taco homepage" width="701" height="489">
+          <div class="column-text">
+            <h3>Toro Taco</h3>
+            <p>
+              This website was built for a fictional taqueria in Durham, North Carolina. It was built using HTML, CSS,
+              and JavaScript. It utilizes CSS Grid and flexbox to create a modern layout and design. It is fully
+              responsive and built to be mobile friendly.
+            </p>
+            <div class="column-info">
+              <span class="column-category">HTML | CSS | JS</span>
+              <div class="column-icons">
+                <a href="https://github.com/jaregist/torotaco" target="_blank"><i
+                    class="fa-brands fa-github card-btn"></i></a>
+                <a href="https://wcet3.waketech.edu/joregister/web125/torotaco/" target="_blank"><i
+                    class="fa-solid fa-circle-arrow-right card-btn"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <img src="img/biltmore-estates.jpg" alt="Redesign of the Biltmore Estates homepage" width="701" height="490">
+          <div class="column-text">
+            <h3>Biltmore Estates</h3>
+            <p>
+              Redesigned website for Biltmore Estates using Bootstrap in this project. It features accordion
+              menus, modern design, and image slides. It is fully responsive and built to be mobile friendly.
+            </p>
+            <div class="column-info">
+              <span class="column-category">Bootstrap</span>
+              <div class="column-icons">
+                <a href="https://github.com/jaregist/biltmore" target="_blank"><i
+                    class="fa-brands fa-github card-btn"></i></a>
+                <a href="https://wcet3.waketech.edu/joregister/web125/lesson14/" target="_blank"><i
+                    class="fa-solid fa-circle-arrow-right card-btn"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <img src="img/medellin-travel.jpg" alt="Medellin Travel blog landing page" width="701" height="489">
+          <div class="column-text">
+            <h3>Travel Blog</h3>
+            <p>
+              Travel site and blog for the city of Medellin, Colombia. It was built with WordPress and a custom Neve
+              child theme.
+            </p>
+            <div class="column-info">
+              <span class="column-category">WordPress | Neve</span>
+              <div class="column-icons">
+                <a href="https://github.com/jaregist/neve-child" target="_blank"><i
+                    class="fa-brands fa-github card-btn"></i></a>
+                <a href="https://wcet3.waketech.edu/jregister/web250eos/" target="_blank"><i
+                    class="fa-solid fa-circle-arrow-right card-btn"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--Contact Page Style/Footer Section-->
+  <footer id="contact">
+    <div class="contact">
+      <div class="footer-links">
+        <h2>Say hello!</h2>
+        <div class="contactme">
+          <h3>Send me an email, connect with me on LinkedIn, or checkout my Github profile if you like my work!</h3>
+        </div>
+        <div class="footer-icons">
+          <a href="mailto:joregister91@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/jake-register/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/jaregist/" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h2>Site Map</h2>
+        <div><a href="/index.html">HOME</a></div>
+        <div><a href="#about">ABOUT</a></div>
+        <div><a href="#projects">PROJECTS</a></div>
+        <div><a href="#blog">BLOG</a></div>
+        <div><a href="#contact">CONTACT</a></div>
+      </div>
+    </div>
+    <div class="copyright">
+      <span><small>&copy; Copyright 2022, Jake Register, All Rights Reserved</small></span>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
