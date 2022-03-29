@@ -607,6 +607,7 @@ header {
   background-color: var(--primary-background);
   color: var(--white-text);
   padding-bottom: 3em;
+  padding-top: 3em;
   text-align: center;
 }
 /**********************************************************************************************/
