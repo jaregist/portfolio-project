@@ -186,6 +186,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  margin-top: 2.5em;
   width: 100%;
 }
 
@@ -327,10 +328,11 @@ header {
   width: 100%;
 }
 
-.about-btn {
+.about-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2.5em auto;
   width: 75%;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .resume {
@@ -552,6 +554,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   box-shadow: 4px 0 0 2px rgba(46, 41, 78, 0.5);
+  margin: 0 auto;
 }
 
 .contact h2 {
@@ -565,9 +568,9 @@ header {
 }
 
 .contact h3 {
-  margin: 2em auto;
+  margin: 2em 1.5em;
   font-size: 1.75em;
-  width: 45%;
+  /* width: 45%; */
 }
 
 .footer-nav div {
@@ -770,7 +773,7 @@ Media Queries
   }
 
   .contactme h3 {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }
 /**********************************************************************************************/
