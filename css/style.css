@@ -54,6 +54,24 @@ footer,
   padding-top: 3em;
 }
 
+#top-btn {
+  background-color: var(--primary-background);
+  color: var(--white-text);
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 50%;
+  font-size: 1em;
+}
+
+#top-btn:hover {
+  background-color: var(--secondary-background);
+}
+
 /*Header Styling*/
 /****************/
 header {
