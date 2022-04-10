@@ -384,14 +384,6 @@ header {
   background: var(--secondary-background);
 }
 
-.about-link > i.hide-icon {
-  display: none;
-}
-
-.about-link:hover > i.hide-icon {
-  display: inline;
-}
-
 /*Skills Bar Styling*/
 /********************/
 
@@ -807,6 +799,12 @@ Media Queries
 
   .contactme h3 {
     font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  i.hide-icon {
+    display: none;
   }
 }
 /**********************************************************************************************/
