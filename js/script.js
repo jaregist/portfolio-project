@@ -14,4 +14,10 @@ function myFunction() {
     icons.classList.remove("fa-xmark");
     icons.classList.add("fa-bars");
   }
+
+  menuLinks.onclick = function () {
+    menuLinks.style.display = "none";
+    icons.classList.remove("fa-xmark");
+    icons.classList.add("fa-bars");
+  };
 }

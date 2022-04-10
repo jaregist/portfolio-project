@@ -443,7 +443,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 1em auto;
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
   padding: 1em;
 }
 
@@ -553,8 +553,11 @@ header {
 
 /*Footer Styling*/
 /****************/
+footer {
+  margin-top: 4em;
+}
+
 .contact {
-  min-height: 85vh;
   background-color: var(--primary-background);
   color: var(--white-text);
   display: grid;
