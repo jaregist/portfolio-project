@@ -145,7 +145,25 @@ header {
   text-align: center;
 }
 
-.burger-nav a.icon {
+/* .burger-nav a.icon {
+  font-size: 2em;
+  background: var(--primary-background);
+  display: block;
+  right: 0;
+  top: 0;
+} */
+
+.burger-nav button {
+  color: var(--white-text);
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+  text-align: center;
+  border: none;
+}
+
+.burger-nav button.icon {
   font-size: 2em;
   background: var(--primary-background);
   display: block;
@@ -503,7 +521,7 @@ header {
 .column-category {
   display: inline-block;
   margin-top: 25px;
-  color: #b8b8b8;
+  color: #696969;
 }
 
 .column-icons {
