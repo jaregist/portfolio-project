@@ -93,7 +93,7 @@ header {
 }
 
 .logo {
-  margin: 1em 2em;
+  margin: 0.5em 2em;
 }
 
 .logo-img {
@@ -235,6 +235,7 @@ header {
   border: 3px solid var(--secondary-background);
   font-weight: bold;
   font-size: 1.25em;
+  transition-duration: 0.3s;
 }
 
 .cta-link {
@@ -243,15 +244,20 @@ header {
 }
 
 .cta-link:hover,
-.cta-link-outline:hover {
+.cta-link-outline:hover,
+.cta-link:focus,
+.cta-link-outline:focus,
+.cta-link:active,
+.cta-link-outline:active {
   text-decoration: underline;
-  animation: bounce 1s 1;
+  transform: scale(1.05);
+  /* animation: bounce 1s 1;
   -webkit-animation: bounce 1s 1;
   -moz-animation: bounce 1s 1;
-  -o-animation: bounce 1s 2;
+  -o-animation: bounce 1s 2; */
 }
 
-@-webkit-keyframes bounce {
+/* @-webkit-keyframes bounce {
   0%,
   100% {
     -webkit-transform: rotate(0deg);
@@ -298,7 +304,7 @@ header {
   50% {
     transform: rotate(-2deg);
   }
-}
+} */
 
 .cta-link-outline {
   color: var(--secondary-background);
@@ -362,6 +368,7 @@ header {
   grid-template-columns: 1fr 1fr;
   margin: 2.5em auto;
   width: 75%;
+  font-size: 0.75em;
 }
 
 .resume {
@@ -608,9 +615,11 @@ footer {
   text-decoration: none;
 }
 
-.footer-nav a:hover {
-  font-size: 1.05em;
+.footer-nav a:hover,
+.footer-nav a:active,
+.footer-nav a:focus {
   font-weight: bold;
+  font-size: 1.05em;
 }
 
 .footer-icons {
@@ -625,10 +634,13 @@ footer {
   padding: 0 0.5em;
   color: var(--white-text);
   font-size: 3em;
+  transition-duration: 0.3s;
 }
 
-.footer-icons i:hover {
-  font-size: 3.25em;
+.footer-icons i:hover,
+.footer-icons i:active,
+.footer-icons i:focus {
+  transform: scale(1.1);
 }
 
 .copyright {
